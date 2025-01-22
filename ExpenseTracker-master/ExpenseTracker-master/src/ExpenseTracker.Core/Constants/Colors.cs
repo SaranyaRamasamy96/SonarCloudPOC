@@ -19,7 +19,7 @@ namespace ExpenseTracker.Core.Constants
             new Color("Pink",
                 "#D6336C"),
             new Color("Red",
-                "#D63939"),
+                "#D63969"),
             new Color("Orange",
                 "#F76707"),
             new Color("Yellow",
