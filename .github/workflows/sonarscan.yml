@@ -29,4 +29,3 @@ jobs:
           args: >
             -Dsonar.organization=SaranyaRamasamy1996
             -Dsonar.projectKey=SonarCloudPOC
-            -Dsonar.python.coverage.reportPaths=coverage.xml
