@@ -42,6 +42,6 @@ jobs:
           SONAR_TOKEN: "379d21056c9410f380f6d8e392bf6e8f01cdd1f3"
         shell: powershell
         run: |
-          .\.sonar\scanner\dotnet-sonarscanner begin /k:"SaranyaRamasamy96_SonarCloudPOC" /o:"saranyaramasamy96" /d:sonar.token=sonar token-379d21056c9410f380f6d8e392bf6e8f01cdd1f3 /d:sonar.host.url="https://sonarcloud.io"
+          .\.sonar\scanner\dotnet-sonarscanner begin /k:"SaranyaRamasamy96_SonarCloudPOC" /o:"saranyaramasamy96" /d:sonar.token="379d21056c9410f380f6d8e392bf6e8f01cdd1f3" /d:sonar.host.url="https://sonarcloud.io"
           dotnet build
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.token="379d21056c9410f380f6d8e392bf6e8f01cdd1f3"
